@@ -1,4 +1,4 @@
-savethedate
+e_bblast
 ==============
 
-HTML 4 email blast template
+HTML email-blast boilerplate
