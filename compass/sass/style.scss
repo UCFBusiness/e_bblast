@@ -1,0 +1,38 @@
+// See modules/_base.scss
+@import "modules/base";
+
+@import "partials/header";
+@import "partials/footer";
+@import "partials/ie";
+@import "partials/reset";
+
+body {
+    @include typeface;
+}
+
+#container {
+	background: #FFF;
+}
+
+// Images ----------------------
+
+img {
+	outline:none; 
+	text-decoration:none;
+	-ms-interpolation-mode: bicubic;
+}
+
+a img {
+	border:none;
+}
+
+.image_fix {display:block;}
+
+// Tables ----------------------
+
+#backgroundTable {
+	margin:0;
+	padding:0;
+	width:100% !important;
+	line-height: 100% !important;
+}
